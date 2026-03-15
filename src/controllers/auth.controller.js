@@ -36,6 +36,7 @@ export async function register(req, res){
     {
         expiresIn: "15d"
     })
+    
 
     res.status(201).json({
         message: "user registered successfully",
